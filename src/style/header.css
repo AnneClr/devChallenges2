@@ -1,0 +1,35 @@
+.headerContainer {
+  margin-bottom: 3rem;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: -0.15rem;
+  /* margin: 5rem auto 3rem auto; */
+}
+
+.presentationTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.presentationText {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .headerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+  }
+  .presentationContainer {
+    margin-top: auto;
+  }
+
+  .presentationText {
+    width: 20rem;
+  }
+}

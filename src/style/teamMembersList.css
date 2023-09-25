@@ -1,0 +1,20 @@
+.teamPhotoContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.5rem;
+  width: 100%;
+  margin: 5rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .teamPhotoContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: fit-content;
+    margin: 5rem auto 8rem auto;
+    column-gap: 4rem;
+    row-gap: 0;
+  }
+}

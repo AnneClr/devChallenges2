@@ -1,0 +1,36 @@
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  font-size: 0.8rem;
+}
+
+.textFooter {
+  font-family: "Space Mono", monospace;
+  margin: 0;
+}
+
+.linksContainer {
+  > h3 {
+    margin: 0.5rem auto;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .containerFooter {
+    font-size: 1.2rem;
+  }
+
+  .linksContainer {
+    > h3 {
+      margin: 1rem auto;
+      font-size: 0.9em;
+    }
+  }
+}

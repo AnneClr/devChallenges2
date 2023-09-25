@@ -1,0 +1,57 @@
+.memberContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 12rem;
+  gap: 0.2rem;
+  &:nth-child(even) {
+    margin-top: 3rem;
+  }
+}
+
+.memberPhotoAndName {
+  > img {
+    width: 6.5rem;
+  }
+  > h3 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-top: 0;
+  }
+}
+
+.memberRole > h4 {
+  margin: 0;
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: -0.05rem;
+  writing-mode: vertical-lr;
+}
+
+@media screen and (min-width: 768px) {
+  .memberContainer {
+    height: 20rem;
+    &:nth-child(even) {
+      margin-top: initial;
+    }
+    &:nth-child(2){
+      margin-top: 6rem;
+    }
+    &:nth-child(5){
+      margin-top: 6rem;
+    }
+  }
+  .memberPhotoAndName {
+    > img {
+      width: 11rem;
+    }
+    > h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 0;
+    }
+  }
+  .memberRole > h4 {
+    font-size: 1rem;
+  }
+}
