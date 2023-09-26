@@ -3,7 +3,7 @@ export const team = [
     id: 1,
     name: "Bill Mahoney",
     role: "PRODUCT OWNER",
-    src: "public/photo1.png",
+    src: "/photo1.png",
   },
   {
     id: 2,
