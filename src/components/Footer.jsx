@@ -18,6 +18,6 @@ export default function Footer() {
           </a>
         </h3>
       </div>
-    </div>
+    </div> 
   );
 }
