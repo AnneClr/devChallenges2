@@ -8,7 +8,7 @@
 
 ## Overview
 
-![screenshot](/public/devchallenge1.png)
+![screenshot](/public/devchallenge2.png)
 
 ### Built With
 
